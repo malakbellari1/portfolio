@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Malak Bellari</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .intro {
+            text-align: center;
+            padding: 50px;
+        }
+        .projects {
+            text-align: center;
+            padding: 20px;
+        }
+        .project {
+            background: white;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            width: 30%;
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            background-color: #333;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfolio - Malak Bellari</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>Bienvenue !</h2>
+        <p>Je suis une développeuse passionnée par le génie logiciel. Voici quelques-uns de mes projets en C++ et Java.</p>
+    </section>
+
+    <section class="projects">
+        <h2>Projets</h2>
+        <div class="project">
+            <h3>TP1 - Ordonnancement</h3>
+            <p>Gestion de processus et d'ordonnancement.</p>
+            <a href="tp1.html">Voir plus</a>
+        </div>
+        <div class="project">
+            <h3>TP2 - Réseau IP</h3>
+            <p>Simulation de réseau avec graphe.</p>
+            <a href="tp2.html">Voir plus</a>
+        </div>
+        <div class="project">
+            <h3>TP3 - Bottin</h3>
+            <p>Gestion de contacts avec table de hachage.</p>
+            <a href="tp3.html">Voir plus</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 - Malak Bellari</p>
+    </footer>
+</body>
+</html>
